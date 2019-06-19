@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/shape_corner" android:layout_width="200.0dip" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ff666666" android:gravity="center" android:id="@+id/dialog_title_tv" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.0" />
+    <View android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="10.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textColor="#ff666666" android:gravity="center" android:id="@+id/cancel_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="取消" android:layout_weight="1.0" />
+        <View android:background="#ffd9d9d9" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" />
+        <TextView android:textColor="#ffcc0033" android:gravity="center" android:id="@+id/ok_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="确定" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/wight">
+
+        <TextView
+            android:id="@+id/shangjiaming"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10.0dip"
+            android:text="爱义行洗车卡"
+            android:textColor="@color/black"
+            android:textSize="18.0sp" />
+
+        <TextView
+            android:id="@+id/wanchengzhaungtai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10.0dip"
+            android:text="已完成"
+            android:textColor="#fff40404"
+            android:textSize="15.0sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/huibg"
+        android:padding="10.0dip">
+
+        <com.thinkcool.circletextimageview.CircleTextImageView
+            android:id="@+id/newsicon"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:src="@drawable/timg3" />
+
+        <TextView
+            android:id="@+id/xichenesname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/newsicon"
+            android:text="爱义行洗车卡"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/xichecontent"
+            android:layout_width="200.0dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xichenesname"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_toRightOf="@+id/newsicon"
+            android:maxEms="20"
+            android:text="每年最高优惠2880元，车零零加油卡充值，超划算"
+            android:textSize="13.0sp" />
+
+        <TextView
+            android:id="@+id/shijimoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10.0dip"
+            android:text="￥50.00"
+            android:textColor="#fa0404"
+            android:textSize="13.0sp" />
+
+        <TextView
+            android:id="@+id/yingfumoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/shijimoney"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="5.0dip"
+            android:text=""
+            android:textSize="13.0sp" />
+
+        <TextView
+            android:id="@+id/shuliang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/yingfumoney"
+            android:layout_marginTop="10.0dip"
+            android:orientation="horizontal"
+            android:text="*2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/wight"
+        android:padding="10.0dip">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/shangpinnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/shangpinjiaqian"
+            android:text="共2件商品，"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/shangpinjiaqian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="合计100.00元"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/zaicigoumai"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonstyleyuan"
+            android:padding="5.0dip"
+            android:textColor="#fff40404"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="再次购买"/>
+
+        <TextView
+            android:id="@+id/chongzhijili"
+            android:visibility="gone"
+            android:layout_toLeftOf="@+id/zaicigoumai"
+            android:layout_centerVertical="true"
+            android:background="@drawable/buttonstyleyuan"
+            android:padding="5.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值记录"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/huibg" />
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/timeshow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2012-13"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        android:background="@color/huibg" />
+</LinearLayout>

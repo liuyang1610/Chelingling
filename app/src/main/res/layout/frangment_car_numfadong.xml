@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/a2" android:background="@drawable/icon_76" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="发动机号" android:layout_toRightOf="@+id/a2" android:layout_centerVertical="true" />
+        <TextView android:id="@+id/haha2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <EditText android:textSize="13.0sp" android:id="@+id/fadongjihao" android:background="@null" android:layout_width="150.0dip" android:layout_height="wrap_content" android:hint="请输入发动机号     " android:digits="ABCDEFGHIJKLMNOPQRSTUVWSYZ0123456789" android:layout_toRightOf="@+id/haha2" android:layout_centerVertical="true" android:textCursorDrawable="@drawable/guangbiao" />
+    </RelativeLayout>
+    <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/a3" android:background="@drawable/icon_77" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="车架号" android:layout_toRightOf="@+id/a3" android:layout_centerVertical="true" />
+        <TextView android:id="@+id/haha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <EditText android:textSize="13.0sp" android:id="@+id/chejiaohao" android:background="@null" android:layout_width="150.0dip" android:layout_height="wrap_content" android:hint="请输入17位车架号" android:layout_toRightOf="@+id/haha" android:textCursorDrawable="@drawable/guangbiao" />
+    </RelativeLayout>
+    <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/a4" android:background="@drawable/icon_35" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="投保地区" android:layout_toRightOf="@+id/a4" android:layout_centerVertical="true" />
+        <TextView android:textSize="13.0sp" android:id="@+id/carpa" android:background="@null" android:layout_width="60.0dip" android:layout_height="wrap_content" android:hint="     " android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:id="@+id/haha1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@+id/toubaodizhixuanze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@+id/carpa" android:layout_toRightOf="@+id/haha1" android:layout_centerVertical="true">
+            <TextView android:textColor="@color/blue" android:id="@+id/toudizhitext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="北京" android:layout_centerVertical="true" />
+            <ImageView android:id="@+id/xialsa" android:background="@drawable/icon_36" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_toRightOf="@+id/toudizhitext" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="20.0sp" android:textColor="@color/wight" android:gravity="center" android:id="@+id/next" android:background="@drawable/icon_19" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="50.0dip" android:layout_marginTop="80.0dip" android:layout_marginRight="50.0dip" android:text="下一步" />
+</LinearLayout>

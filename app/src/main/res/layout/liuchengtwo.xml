@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/wight" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:layout_gravity="center" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="流程介绍" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <RelativeLayout android:id="@+id/dianjianniu" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/tu1" android:background="@drawable/icon_14" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="点击按钮" android:layout_below="@+id/tu1" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:background="@drawable/icon_18" android:layout_width="20.0dip" android:layout_height="10.0dip" android:layout_marginLeft="2.0dip" android:layout_marginBottom="13.0dip" />
+        <RelativeLayout android:id="@+id/kefufuwu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip">
+            <ImageView android:id="@+id/tu2" android:background="@drawable/icon_15" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="客服服务" android:layout_below="@+id/tu2" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:background="@drawable/icon_18" android:layout_width="20.0dip" android:layout_height="10.0dip" android:layout_marginLeft="2.0dip" android:layout_marginBottom="13.0dip" />
+        <RelativeLayout android:id="@+id/zhuanyejiu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip">
+            <ImageView android:id="@+id/tu3" android:background="@drawable/icon_16" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="专业救援" android:layout_below="@+id/tu3" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:background="@drawable/icon_18" android:layout_width="20.0dip" android:layout_height="10.0dip" android:layout_marginLeft="2.0dip" android:layout_marginBottom="13.0dip" />
+        <RelativeLayout android:id="@+id/guzhangpaich" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip">
+            <ImageView android:id="@+id/tu4" android:background="@drawable/icon_17" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="故障排除" android:layout_below="@+id/tu4" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

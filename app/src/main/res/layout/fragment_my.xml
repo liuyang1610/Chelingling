@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="270.0dip">
+
+        <ImageView
+            android:id="@+id/beijingbac"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/mybg" />
+
+        <com.thinkcool.circletextimageview.CircleTextImageView
+            android:id="@+id/myicon"
+            android:layout_width="90.0dip"
+            android:layout_height="90.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50.0dip"
+            app:citv_border_color="#99ffffff"
+            app:citv_border_width="5dp" />
+
+        <TextView
+            android:id="@+id/myname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/myicon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20.0dip"
+            android:text="尊敬的用户"
+            android:textColor="@color/wight" />
+
+        <TextView
+            android:id="@+id/myline"
+            android:layout_width="50.0dip"
+            android:layout_height="25.0dip"
+            android:layout_below="@+id/myname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5.0dip"
+            android:gravity="center"
+            android:text="sda"
+            android:textColor="@color/wight" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5.0dip">
+
+        <RelativeLayout
+            android:id="@+id/dingdan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/tu11"
+                android:layout_width="25.0dip"
+                android:layout_height="25.0dip"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/icon_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tu11"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5.0dip"
+                android:text="订单"
+                android:textColor="@color/black"
+                android:textSize="15.0sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jifen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110.0dip">
+
+            <ImageView
+                android:id="@+id/tu42"
+                android:layout_width="25.0dip"
+                android:layout_height="25.0dip"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/icon_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tu42"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5.0dip"
+                android:text="积分"
+                android:textColor="@color/black"
+                android:textSize="15.0sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gengduo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110.0dip">
+
+            <ImageView
+                android:id="@+id/tu4"
+                android:layout_width="25.0dip"
+                android:layout_height="25.0dip"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/icon_3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tu4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5.0dip"
+                android:text="更多"
+                android:textColor="@color/black"
+                android:textSize="15.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        android:background="@color/huibg" />
+
+    <include layout="@layout/mybgthree" />
+</LinearLayout>

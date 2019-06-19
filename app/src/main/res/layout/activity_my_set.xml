@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/fanhuititle" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15.0dip"
+        android:background="@color/huibg" />
+
+    <RelativeLayout
+        android:id="@+id/touxiang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15.0dip">
+
+        <ImageView
+            android:id="@+id/im43"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3.0dip"
+            android:background="@drawable/icon_9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im43"
+            android:text="头像"
+            android:textColor="@color/black" />
+
+        <com.thinkcool.circletextimageview.CircleTextImageView
+            android:id="@+id/iconbg"
+            android:layout_width="35.0dip"
+            android:layout_height="35.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20.0dip"
+            android:layout_toLeftOf="@+id/rights"
+            android:src="@drawable/touxiang" />
+
+        <ImageView
+            android:id="@+id/rights"
+            android:layout_width="10.0dip"
+            android:layout_height="15.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_arrow_r" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/huibg" />
+
+    <RelativeLayout
+        android:id="@+id/myaddres"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15.0dip">
+
+        <ImageView
+            android:id="@+id/im4444"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_marginLeft="3.0dip"
+            android:background="@drawable/addres" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im4444"
+            android:text="我的地址"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="10.0dip"
+            android:layout_height="15.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_arrow_r" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/huibg" />
+
+    <RelativeLayout
+        android:id="@+id/genghuan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15.0dip">
+
+        <ImageView
+            android:id="@+id/im44"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:background="@drawable/icon_10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im44"
+            android:text="更换手机"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="10.0dip"
+            android:layout_height="15.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_arrow_r" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/huibg" />
+
+    <RelativeLayout
+        android:id="@+id/genghuanziliao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15.0dip">
+
+        <ImageView
+            android:id="@+id/im444"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:background="@drawable/ziliao" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im444"
+            android:text="会员资料"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="10.0dip"
+            android:layout_height="15.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_arrow_r" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/huibg" />
+
+    <RelativeLayout
+        android:id="@+id/guanyu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15.0dip">
+
+        <ImageView
+            android:id="@+id/im45"
+            android:layout_width="20.0dip"
+            android:layout_height="17.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:background="@drawable/icon_11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im45"
+            android:text="关于我们"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="10.0dip"
+            android:layout_height="15.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_arrow_r" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        android:background="@color/huibg" />
+
+    <RelativeLayout
+        android:id="@+id/yijianfan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15.0dip">
+
+        <ImageView
+            android:id="@+id/im4"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:background="@drawable/icon_12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im4"
+            android:text="意见反馈"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="10.0dip"
+            android:layout_height="15.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_arrow_r" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/huibg" />
+</LinearLayout>

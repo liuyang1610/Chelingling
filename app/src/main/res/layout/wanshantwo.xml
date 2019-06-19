@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/wight" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/black" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="因为以下几种情况，未检测到行驶本信息" />
+    <TextView android:textSize="10.0sp" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="从未在当地人保、平安、太平洋、国寿财、中华联合大地保险投过保" />
+    <RelativeLayout android:id="@+id/tianjiazhaopian" android:background="@drawable/boder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip">
+        <ImageView android:id="@+id/carimage" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:background="@drawable/icon_3" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textColor="@color/blue" android:layout_gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="点击上传行驶本照片" />
+</LinearLayout>

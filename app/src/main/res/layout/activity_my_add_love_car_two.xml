@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include layout="@layout/fanhuititle" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lovecartype"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/titlke"
+        android:paddingTop="10.0dip" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lovecartypetwo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/titlke"
+        android:paddingTop="10.0dip"
+        android:visibility="gone" />
+
+    <com.beijing.chelingling.lovecar.SlideBar
+        android:id="@+id/slidebar"
+        android:layout_width="20.0dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="#66ebebeb" />
+</RelativeLayout>

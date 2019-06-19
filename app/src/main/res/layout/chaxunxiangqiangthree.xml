@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="80.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/blackline" android:layout_width="320.0dip" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/xian" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="险种" />
+        <View android:id="@+id/fensdas" android:background="#ffb3b0b0" android:layout_width="2.0dip" android:layout_height="36.0dip" android:layout_toRightOf="@+id/xian" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/baoxianjine" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="保险金额/责任限额" android:layout_toRightOf="@+id/fensdas" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/blackline" android:layout_width="320.0dip" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/jaioqiangxian" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="车辆损失险" />
+        <View android:id="@+id/fensdas1" android:background="#ffb3b0b0" android:layout_width="2.0dip" android:layout_height="36.0dip" android:layout_toRightOf="@+id/jaioqiangxian" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/jaioqiangxianmoney" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="85162(不计免赔)" android:layout_toRightOf="@+id/fensdas1" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/blackline" android:layout_width="320.0dip" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/cheliangsunxian" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="第三者责任险" />
+        <View android:id="@+id/fensdas2" android:background="#ffb3b0b0" android:layout_width="2.0dip" android:layout_height="36.0dip" android:layout_toRightOf="@+id/cheliangsunxian" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/cheliangsunxianmoney" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="92061.6(不计免陪)" android:layout_toRightOf="@+id/fensdas2" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/blackline" android:layout_width="320.0dip" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/disanxian" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="全车盗抢险" />
+        <View android:id="@+id/fensdas3" android:background="#ffb3b0b0" android:layout_width="2.0dip" android:layout_height="36.0dip" android:layout_toRightOf="@+id/disanxian" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/disanxianmoney" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="1.000.00(不计免陪)" android:layout_toRightOf="@+id/fensdas3" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/blackline" android:layout_width="320.0dip" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/sijixian" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="车上人员(司机)责任险" />
+        <View android:id="@+id/fensdas4" android:background="#ffb3b0b0" android:layout_width="2.0dip" android:layout_height="36.0dip" android:layout_toRightOf="@+id/sijixian" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/sijimoney" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="10.000(不计免陪)" android:layout_toRightOf="@+id/fensdas4" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/blackline" android:layout_width="320.0dip" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/bolixian" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="车上人员(乘客)责任险" />
+        <View android:id="@+id/fensdas5" android:background="#ffb3b0b0" android:layout_width="2.0dip" android:layout_height="36.0dip" android:layout_toRightOf="@+id/bolixian" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/bolixianmoney" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="国产玻璃" android:layout_toRightOf="@+id/fensdas5" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/blackline" android:layout_width="320.0dip" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/sheshuixian" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="划痕险" />
+        <View android:id="@+id/fensdas6" android:background="#ffb3b0b0" android:layout_width="2.0dip" android:layout_height="36.0dip" android:layout_toRightOf="@+id/sheshuixian" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/sheshuixianmoney" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="投保(不计免陪)" android:layout_toRightOf="@+id/fensdas6" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/blackline" android:layout_width="320.0dip" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/chewufaxian" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="玻璃单独破碎险" />
+        <View android:id="@+id/fensdas7" android:background="#ffb3b0b0" android:layout_width="2.0dip" android:layout_height="36.0dip" android:layout_toRightOf="@+id/chewufaxian" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/chewufaxianmoney" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="投保" android:layout_toRightOf="@+id/fensdas7" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/blackline" android:layout_width="320.0dip" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/chewufaxian1" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="自燃损失险" />
+        <View android:id="@+id/fensdas8" android:background="#ffb3b0b0" android:layout_width="2.0dip" android:layout_height="36.0dip" android:layout_toRightOf="@+id/chewufaxian1" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/chewu1" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="投保" android:layout_toRightOf="@+id/fensdas8" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/blackline" android:layout_width="320.0dip" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/chewufaxian2" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="车损无法找到第三方险" />
+        <View android:id="@+id/fensdas9" android:background="#ffb3b0b0" android:layout_width="2.0dip" android:layout_height="36.0dip" android:layout_toRightOf="@+id/chewufaxian2" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/chewu2" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="投保" android:layout_toRightOf="@+id/fensdas9" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/blackline" android:layout_width="320.0dip" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/chewufaxian3" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="涉水行驶损失险" />
+        <View android:id="@+id/fensdas10" android:background="#ffb3b0b0" android:layout_width="2.0dip" android:layout_height="36.0dip" android:layout_toRightOf="@+id/chewufaxian3" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/chewu3" android:padding="10.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="投保" android:layout_toRightOf="@+id/fensdas10" />
+    </RelativeLayout>
+</LinearLayout>

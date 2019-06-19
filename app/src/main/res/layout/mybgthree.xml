@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/addcar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10.0dip">
+
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:background="@drawable/icon_4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im1"
+            android:text="我的爱车"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="10.0dip"
+            android:layout_height="15.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_arrow_r" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/huibg" />
+
+    <RelativeLayout
+        android:id="@+id/yaoqing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10.0dip">
+
+        <ImageView
+            android:id="@+id/im2"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:background="@drawable/icon_5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im2"
+            android:text="邀请好友"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="10.0dip"
+            android:layout_height="15.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_arrow_r" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/huibg" />
+
+    <RelativeLayout
+        android:id="@+id/lianxikefu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10.0dip">
+
+        <ImageView
+            android:id="@+id/im3"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:background="@drawable/icon_6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im3"
+            android:text="联系客服"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="10.0dip"
+            android:layout_height="15.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_arrow_r" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/huibg" />
+
+    <RelativeLayout
+        android:id="@+id/xiugaimima"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10.0dip">
+
+        <ImageView
+            android:id="@+id/im4"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:background="@drawable/icon_7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im4"
+            android:text="修改密码"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="10.0dip"
+            android:layout_height="15.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_arrow_r" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/editss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="退出登录" />
+    </RelativeLayout>
+
+</LinearLayout>

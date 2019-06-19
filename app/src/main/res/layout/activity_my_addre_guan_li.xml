@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fanhuititle" />
+    <android.support.v7.widget.RecyclerView android:id="@+id/infoshow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="60.0dip" android:layout_below="@+id/titlke" />
+    <RelativeLayout android:id="@+id/nodata" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/bgs" android:background="@drawable/bg" android:layout_width="100.0dip" android:layout_height="140.0dip" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="未发现收货地址" android:layout_below="@+id/bgs" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="20.0sp" android:textColor="@color/wight" android:gravity="center" android:id="@+id/stattt" android:background="@drawable/icon_19" android:layout_width="250.0dip" android:layout_height="45.0dip" android:layout_marginBottom="20.0dip" android:text="添加新地址" android:layout_below="@+id/two" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

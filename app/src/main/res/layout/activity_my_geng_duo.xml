@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/fanhuititle" />
+
+    <com.youth.banner.Banner
+        android:id="@+id/bannewrs"
+        android:layout_width="fill_parent"
+        android:layout_height="225.0dip"
+        app:indicator_drawable_selected="@drawable/kongxinyuan"
+        app:indicator_drawable_unselected="@drawable/shixinyuan"
+        app:indicator_height="8.0dip"
+        app:indicator_margin="6.0dip"
+        app:indicator_width="8.0dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:background="@color/wight"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="10.0dip"
+        android:paddingTop="10.0dip">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/jiayouchongzhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/tu5"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/jiayou" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tu5"
+                    android:layout_marginTop="5.0dip"
+                    android:text="加油充值"
+                    android:textColor="@color/dizhiguanlicolor"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/qichebaoxian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30.0dip">
+
+                <ImageView
+                    android:id="@+id/tu6"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/icon_23" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tu6"
+                    android:layout_marginTop="5.0dip"
+                    android:text="汽车保险"
+                    android:textColor="@color/wufadianjicolor"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/shigulipei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30.0dip">
+
+                <ImageView
+                    android:id="@+id/tu7"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/icon_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tu7"
+                    android:layout_marginTop="5.0dip"
+                    android:text="事故理赔"
+                    android:textColor="@color/wufadianjicolor"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/qichejinrong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30.0dip">
+
+                <ImageView
+                    android:id="@+id/tu4"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/icon_25" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tu4"
+                    android:layout_marginTop="5.0dip"
+                    android:text="汽车金融"
+                    android:textColor="@color/wufadianjicolor"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip">
+
+            <RelativeLayout
+                android:id="@+id/qichemeirong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/tu11"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/icon_26" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tu11"
+                    android:layout_marginTop="5.0dip"
+                    android:text="汽车美容"
+                    android:textColor="@color/wufadianjicolor"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/anxindaijia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30.0dip">
+
+                <ImageView
+                    android:id="@+id/tu12"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/icon_27" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tu12"
+                    android:layout_marginTop="5.0dip"
+                    android:text="安心代驾"
+                    android:textColor="@color/wufadianjicolor"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/yidongchongdian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30.0dip">
+
+                <ImageView
+                    android:id="@+id/tu13"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/dianchi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tu13"
+                    android:layout_marginTop="5.0dip"
+                    android:text="移动充电"
+                    android:textColor="@color/wufadianjicolor"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/tianjiagnegduo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30.0dip">
+
+                <ImageView
+                    android:id="@+id/tu14"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/icon_29" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tu14"
+                    android:layout_marginTop="5.0dip"
+                    android:text="添加更多"
+                    android:textColor="@color/wufadianjicolor"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

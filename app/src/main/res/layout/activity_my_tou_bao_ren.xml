@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/wight" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fanhuititle" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@+id/titlke">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="70.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@+id/beibaoreninfod" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/leftss" android:background="@drawable/icon_40" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+                <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="投保人信息" android:layout_toRightOf="@+id/leftss" android:layout_centerVertical="true" />
+                <TextView android:id="@+id/beibaoreninfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="临时选择" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="投保人姓名" android:layout_centerVertical="true" />
+                <EditText android:textSize="12.0sp" android:gravity="right" android:id="@+id/beibaorename" android:background="@null" android:padding="5.0dip" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:hint="请输入投保人姓名" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="text" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:id="@+id/zhengjiantypebeid" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="证件类型" android:layout_centerVertical="true" />
+                <TextView android:id="@+id/zhengjiantypebei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="身份证" android:layout_toLeftOf="@+id/rightsss1" android:layout_centerVertical="true" />
+                <ImageView android:id="@+id/rightsss1" android:background="@drawable/right_blue" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:id="@+id/zhengjiannumbeid" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="证件号码" android:layout_centerVertical="true" />
+                <EditText android:textSize="12.0sp" android:gravity="right" android:id="@+id/zhengjiannumbei" android:background="@null" android:layout_width="150.0dip" android:layout_height="wrap_content" android:hint="请输入投保人身份证号" android:layout_toLeftOf="@+id/rightsss2" android:layout_centerVertical="true" android:inputType="number" />
+                <ImageView android:id="@+id/rightsss2" android:background="@drawable/right_blue" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:id="@+id/shoujinumd" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="手机号码" android:layout_centerVertical="true" />
+                <EditText android:textSize="12.0sp" android:gravity="right" android:id="@+id/shoujinum" android:background="@null" android:padding="5.0dip" android:layout_width="150.0dip" android:layout_height="wrap_content" android:hint="必填" android:layout_toLeftOf="@+id/rightsss4" android:layout_centerVertical="true" android:inputType="number" />
+                <ImageView android:id="@+id/rightsss4" android:background="@drawable/right_blue" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:id="@+id/emailnumd" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="邮箱地址" android:layout_centerVertical="true" />
+                <EditText android:textSize="12.0sp" android:gravity="right" android:id="@+id/emailtype" android:background="@null" android:padding="5.0dip" android:layout_width="150.0dip" android:layout_height="wrap_content" android:hint="选填" android:layout_toLeftOf="@+id/rightsss5" android:layout_centerVertical="true" android:inputType="textEmailAddress" />
+                <ImageView android:id="@+id/rightsss5" android:background="@drawable/right_blue" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="#fff4062e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="*正式出单时，请完善以下信息，所有信息都是必填" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:id="@+id/sexd" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="性别" android:layout_centerVertical="true" />
+                <TextView android:id="@+id/sesx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="男" android:layout_toLeftOf="@+id/sada" android:layout_centerVertical="true" />
+                <ImageView android:id="@+id/sada" android:background="@drawable/right_blue" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:id="@+id/minzu" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="民族" android:layout_centerVertical="true" />
+                <TextView android:id="@+id/minzusmint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="汉族" android:layout_toLeftOf="@+id/ljjd" android:layout_centerVertical="true" />
+                <ImageView android:id="@+id/ljjd" android:background="@drawable/right_blue" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:id="@+id/chsushengriqi" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="出生日期" android:layout_centerVertical="true" />
+                <TextView android:id="@+id/chsushengriqidt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toLeftOf="@+id/fdsfgf" android:layout_centerVertical="true" />
+                <ImageView android:id="@+id/fdsfgf" android:background="@drawable/right_blue" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:id="@+id/zhuzhid" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="住址" android:layout_centerVertical="true" />
+                <EditText android:textSize="12.0sp" android:gravity="right" android:id="@+id/zhuzhi" android:background="@null" android:padding="5.0dip" android:layout_width="150.0dip" android:layout_height="wrap_content" android:hint="请添加住址" android:layout_toLeftOf="@+id/rightsss11" android:layout_centerVertical="true" android:inputType="text" />
+                <ImageView android:id="@+id/rightsss11" android:background="@drawable/right_blue" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:id="@+id/qianfajiguand" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="签发机关" android:layout_centerVertical="true" />
+                <EditText android:textSize="12.0sp" android:gravity="right" android:id="@+id/qianfajiguan" android:background="@null" android:layout_width="150.0dip" android:layout_height="wrap_content" android:hint="请填写签发机关" android:layout_toLeftOf="@+id/rightsss12" android:layout_centerVertical="true" android:inputType="text" />
+                <ImageView android:id="@+id/rightsss12" android:background="@drawable/right_blue" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/qishid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="起始有效期" android:layout_centerVertical="true" />
+                <RelativeLayout android:id="@+id/rightsssxuanzerili" android:background="@drawable/blueline" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_alignParentRight="true">
+                    <TextView android:id="@+id/qishi" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="     " />
+                    <ImageView android:background="@drawable/rili" android:layout_width="15.0dip" android:layout_height="16.0dip" android:layout_marginRight="5.0dip" android:layout_toRightOf="@+id/qishi" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:background="@color/wight" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="20.0sp" android:textColor="@color/wight" android:gravity="center" android:id="@+id/nexts" android:background="@drawable/icon_19" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="5.0dip" android:text="下一步" />
+    </RelativeLayout>
+</RelativeLayout>

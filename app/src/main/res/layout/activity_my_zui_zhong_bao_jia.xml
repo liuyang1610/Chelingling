@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/huibg"
+    android:orientation="vertical">
+
+    <include layout="@layout/fanhuititle" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@color/wight">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15.0dip"
+            android:text="保险公司"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/hebaio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="45.0dip"
+            android:text="具体报价"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pingan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10.0dip"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:background="@drawable/icon_30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im1"
+            android:text="平安车险"
+            android:textColor="@color/black"
+            android:textSize="17.0sp" />
+
+        <TextView
+            android:id="@+id/pinganhebao"
+            android:layout_width="80.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20.0dip"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/pinganbaojiabaojia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:layout_toLeftOf="@+id/pinganhebao"
+            android:background="@drawable/buttonstyle"
+            android:padding="5.0dip"
+            android:text="获取报价"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/renbao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10.0dip"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/im3"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:background="@drawable/icon_32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im3"
+            android:text="人保车险"
+            android:textColor="@color/black"
+            android:textSize="17.0sp" />
+
+        <TextView
+            android:id="@+id/renbaohebao"
+            android:layout_width="80.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20.0dip"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/renbaobaojia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:layout_toLeftOf="@+id/renbaohebao"
+            android:background="@drawable/buttonstyle"
+            android:padding="5.0dip"
+            android:text="获取报价"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/renshou"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10.0dip"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/im4"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:background="@drawable/icon_33" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/im4"
+            android:text="中国人寿车险"
+            android:textColor="@color/black"
+            android:textSize="17.0sp" />
+
+        <TextView
+            android:id="@+id/zhongshouhebao"
+            android:layout_width="80.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20.0dip"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/renshoubaojia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:layout_toLeftOf="@+id/zhongshouhebao"
+            android:background="@drawable/buttonstyle"
+            android:padding="5.0dip"
+            android:text="获取报价"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

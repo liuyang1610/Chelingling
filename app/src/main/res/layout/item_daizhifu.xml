@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/wight"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/shangjia"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/wight"
+        android:padding="10.0dip"
+        android:text="爱义行洗车卡"
+        android:textColor="@color/black"
+        android:textSize="18.0sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/huibg"
+        android:padding="10.0dip">
+
+        <com.thinkcool.circletextimageview.CircleTextImageView
+            android:id="@+id/newsicon"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip" />
+
+        <TextView
+            android:id="@+id/xichenesname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/newsicon"
+            android:text="爱义行洗车卡"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/xichecontent"
+            android:layout_width="200.0dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xichenesname"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_toRightOf="@+id/newsicon"
+            android:maxEms="20"
+            android:text="每年最高优惠2880元，车零零加油卡充值，超划算"
+            android:textSize="13.0sp" />
+
+        <TextView
+            android:id="@+id/shijimoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10.0dip"
+            android:text="￥50.00"
+            android:textColor="#f70303"
+            android:textSize="13.0sp" />
+
+        <TextView
+            android:id="@+id/yingfumoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/shijimoney"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="5.0dip"
+            android:text=""
+            android:textSize="13.0sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/yingfumoney"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/blackline"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/jian"
+                android:layout_width="20.0dip"
+                android:layout_height="15.0dip"
+                android:layout_gravity="center"
+                android:background="@drawable/jianhao" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:background="#ff9e9c9c" />
+
+            <TextView
+                android:id="@+id/numcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="5.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingTop="5.0dip"
+                android:text="1" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:background="#ff9e9c9c" />
+
+            <ImageView
+                android:id="@+id/jia"
+                android:layout_width="20.0dip"
+                android:layout_height="15.0dip"
+                android:layout_gravity="center"
+                android:background="@drawable/jiahao" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/wight"
+        android:padding="10.0dip">
+
+        <TextView
+            android:id="@+id/shangpinnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="共2件商品，"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/shangpinjiaqian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/shangpinnum"
+            android:text="合计100.00元"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/gozhifu"
+            android:layout_width="70.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/buttonstyle"
+            android:gravity="center"
+            android:padding="5.0dip"
+            android:text="去支付"
+            android:textColor="@color/wight" />
+
+        <TextView
+            android:id="@+id/deletedingdan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:layout_toLeftOf="@+id/gozhifu"
+            android:background="@drawable/buttonstyleyuan"
+            android:padding="5.0dip"
+            android:text="删除订单" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        android:background="@color/huibg" />
+</LinearLayout>

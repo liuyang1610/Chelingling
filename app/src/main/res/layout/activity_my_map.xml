@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fanhuititle" />
+    <View android:id="@+id/vies" android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_below="@+id/titlke" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@+id/vies">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.amap.api.maps2d.MapView android:id="@+id/mapview" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            <TextView android:textSize="17.0sp" android:textColor="@color/black" android:gravity="center" android:id="@+id/textView" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="附近地址" />
+            <android.support.v7.widget.RecyclerView android:id="@+id/funjinliest" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+            <TextView android:textSize="17.0sp" android:textColor="@color/blue" android:gravity="center" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="救援须知" />
+            <TextView android:textColor="@color/blue" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="70.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="       尊敬的车主会员：欢迎使用车零零一站式汽车救援服务，请详细向客服人员描述您爱车的故障状态，以便我们及时向您提供方便快捷的汽车救援服务。" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@+id/jinjiqiuzhu" android:background="@drawable/icon_19" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="60.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="60.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/iocns" android:background="@drawable/icon_phone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="70.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/wight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="紧急求助" android:layout_toRightOf="@+id/iocns" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

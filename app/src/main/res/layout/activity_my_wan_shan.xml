@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fanhuititle" />
+    <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <include layout="@layout/wanshantwo" />
+    <include layout="@layout/wanshanthree" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/wight" android:gravity="center" android:id="@+id/tijiao" android:background="@drawable/icon_19" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="50.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="50.0dip" android:text="提交" />
+</LinearLayout>

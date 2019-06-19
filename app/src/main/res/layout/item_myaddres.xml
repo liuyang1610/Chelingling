@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+        <TextView android:textColor="@color/dizhiguanlicolor" android:id="@+id/sigone" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收货人:" />
+        <TextView android:textColor="@color/dizhiguanlicolor" android:id="@+id/shouhuorenname" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="赵四" android:layout_toRightOf="@+id/sigone" />
+        <TextView android:textColor="@color/dizhiguanlicolor" android:id="@+id/shouphone" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 15689562347" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/dizhiguanlicolor" android:id="@+id/sigtwo" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收货地址:" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/dizhiguanlicolor" android:id="@+id/shouhuorenaddress" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="北京市朝阳区百子湾后现代城5A1006" android:layout_toRightOf="@+id/sigtwo" />
+    </RelativeLayout>
+    <View android:background="#ffededed" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" />
+    <RelativeLayout android:padding="5.0dip" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+        <TextView android:id="@+id/pinganbaojia" android:background="@drawable/icon_checked" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/dizhiguanlicolor" android:id="@+id/sigthree" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="默认地址" android:layout_toRightOf="@+id/pinganbaojia" />
+        <RelativeLayout android:id="@+id/delete_ivshan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/icon1" android:background="@drawable/shanchu" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="3.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/dizhiguanlicolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除" android:layout_toRightOf="@+id/icon1" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/bianjis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@+id/delete_ivshan" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/icon2" android:background="@drawable/bianji" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="3.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/dizhiguanlicolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="编辑" android:layout_toRightOf="@+id/icon2" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="#ffededed" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+</LinearLayout>

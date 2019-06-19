@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/wight"
+    android:orientation="vertical">
+
+    <include layout="@layout/fanhuititle" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/titlke">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="80.0dip">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10.0dip"
+                android:background="@color/huibg" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/wight"
+                android:orientation="horizontal"
+                android:padding="10.0dip">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/chongzhifangshiim"
+                        android:layout_width="25.0dip"
+                        android:layout_height="25.0dip"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/icon_52" />
+
+                    <TextView
+                        android:id="@+id/chongzhifangshite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/chongzhifangshiim"
+                        android:layout_marginTop="5.0dip"
+                        android:text="充值方式"
+                        android:textColor="@color/jiayoukatextcolor" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="30.0dip"
+                    android:layout_height="2.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:background="@color/blue" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/xuanzetaocan"
+                        android:layout_width="25.0dip"
+                        android:layout_height="25.0dip"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/icon_71" />
+
+                    <TextView
+                        android:id="@+id/xuanzetaotext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/xuanzetaocan"
+                        android:layout_marginTop="5.0dip"
+                        android:text="选择套餐"
+                        android:textColor="@color/guangbaicolor" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="30.0dip"
+                    android:layout_height="2.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:background="@color/blue" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/xuanzezhfuim"
+                        android:layout_width="25.0dip"
+                        android:layout_height="25.0dip"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/icon_54" />
+
+                    <TextView
+                        android:id="@+id/xuanzezhfute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/xuanzezhfuim"
+                        android:layout_marginTop="5.0dip"
+                        android:text="选择支付" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="30.0dip"
+                    android:layout_height="2.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:background="@color/blue" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/zhhifuchenggongim"
+                        android:layout_width="25.0dip"
+                        android:layout_height="25.0dip"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/icon_55" />
+
+                    <TextView
+                        android:id="@+id/zhhifuchenggongte"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/zhhifuchenggongim"
+                        android:layout_marginTop="5.0dip"
+                        android:text="支付成功" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <include layout="@layout/jiayoukatwo" />
+
+            <include layout="@layout/jiayoukathree" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10.0dip">
+
+                <ImageView
+                    android:id="@+id/gouxuan"
+                    android:layout_width="15.0dip"
+                    android:layout_height="15.0dip"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/gouxuantrue"
+                    android:padding="5.0dip" />
+
+                <TextView
+                    android:id="@+id/gouxuands"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/gouxuan"
+                    android:padding="5.0dip"
+                    android:text="我已阅读并同意" />
+
+                <TextView
+                    android:id="@+id/gouxuand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/gouxuands"
+                    android:padding="5.0dip"
+                    android:text="《加油卡充值协议》"
+                    android:textColor="#ff0077ee" />
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/lijichongzhi"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15.0dip"
+                android:layout_marginLeft="50.0dip"
+                android:layout_marginRight="50.0dip"
+                android:layout_marginTop="30.0dip"
+                android:background="@drawable/icon_19"
+                android:text="立即充值"
+                android:textColor="@color/wight"
+                android:textSize="20.0sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

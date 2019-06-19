@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fanhuititle" />
+    <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <RelativeLayout android:id="@+id/xuanzecartype" android:background="@color/wight" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/cars" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" />
+        <ImageView android:id="@+id/rights" android:background="@drawable/rightblack" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:id="@+id/aichepinpai" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="请选择您的爱车品牌" android:layout_toLeftOf="@+id/rights" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:background="@color/wight" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="车牌号码" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/rights1" android:background="@drawable/rightblack" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@+id/rights1" android:layout_centerVertical="true">
+            <RelativeLayout android:id="@+id/sunshudi" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/blue" android:id="@+id/diqusuozai" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="京" android:layout_centerVertical="true" />
+                <ImageView android:background="@drawable/icon_36" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@+id/diqusuozai" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <EditText android:textSize="12.0sp" android:id="@+id/carcard" android:background="@drawable/blueline" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="请输入车牌号" android:digits="1234567890ABCDEFGHIJKLMNOPQRSTUVWSYZ" android:layout_toRightOf="@+id/sunshudi" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:id="@+id/goucheriqi" android:background="@color/wight" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="购车日期" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/rights2" android:background="@drawable/rightblack" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:id="@+id/goucheriqiss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="请选择" android:layout_toLeftOf="@+id/rights2" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <RelativeLayout android:background="@color/wight" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/fadongjis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="发动机号" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/fawenhaod" android:background="@drawable/wenhao" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@+id/fadongjis" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/rights5" android:background="@drawable/rightblack" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <EditText android:textSize="13.0sp" android:gravity="right" android:id="@+id/fadongjiaho" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:hint="请输入完整发动机号" android:digits="1234567890ABCDEFGHIJKLMNOPQRSTUVWSYZabcdefghijklmnipqrstuvwsyz" android:layout_toLeftOf="@+id/rights5" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:background="@color/wight" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/chejias" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="车架号" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/chewenhaod" android:background="@drawable/wenhao" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@+id/chejias" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/rights3" android:background="@drawable/rightblack" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <EditText android:textSize="13.0sp" android:gravity="right" android:id="@+id/chejiahao" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:hint="请输入完整车架号" android:digits="1234567890ABCDEFGHIJKLMNOPQRSTUVWSYZabcdefghijklmnipqrstuvwsyz" android:layout_toLeftOf="@+id/rights3" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="20.0sp" android:textColor="@color/wight" android:gravity="center" android:layout_gravity="center" android:id="@+id/wancheng" android:background="@drawable/icon_19" android:layout_width="250.0dip" android:layout_height="45.0dip" android:layout_marginTop="50.0dip" android:layout_marginBottom="30.0dip" android:text="完成" android:layout_below="@+id/two" />
+</LinearLayout>

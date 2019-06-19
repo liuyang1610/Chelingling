@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/wight" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/pingan" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/im1" android:background="@drawable/icon_30" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/black" android:id="@+id/sda" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="平安车险" android:layout_toRightOf="@+id/im1" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/pinganla" android:background="@drawable/toubaoinfo" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="15.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@+id/sda" android:layout_centerVertical="true" />
+        <ImageView android:textColor="@color/black" android:id="@+id/pinganhebao" android:background="@drawable/icon_check" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textColor="@color/black" android:id="@+id/pinganbaojia" android:background="@drawable/icon_check" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="30.0dip" android:layout_toLeftOf="@+id/pinganhebao" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/renbao" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/im3" android:background="@drawable/icon_32" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/black" android:id="@+id/sada" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="人保车险" android:layout_toRightOf="@+id/im3" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/renbaola" android:background="@drawable/toubaoinfo" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="15.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@+id/sada" android:layout_centerVertical="true" />
+        <ImageView android:textColor="@color/black" android:id="@+id/renbaohebao" android:background="@drawable/icon_check" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textColor="@color/black" android:id="@+id/renbaobaojia" android:background="@drawable/icon_check" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="30.0dip" android:layout_toLeftOf="@+id/renbaohebao" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/renshou" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/im4" android:background="@drawable/icon_33" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/black" android:id="@+id/asfas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="中国人寿车险" android:layout_toRightOf="@+id/im4" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/renshoula" android:background="@drawable/toubaoinfo" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="15.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@+id/asfas" android:layout_centerVertical="true" />
+        <ImageView android:textColor="@color/black" android:id="@+id/zhongshouhebao" android:background="@drawable/icon_check" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textColor="@color/black" android:id="@+id/zhongshoubaojia" android:background="@drawable/icon_check" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="30.0dip" android:layout_toLeftOf="@+id/zhongshouhebao" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="20.0sp" android:textColor="@color/wight" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/tijiaobao" android:background="@drawable/icon_19" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="50.0dip" android:layout_marginTop="150.0dip" android:layout_marginRight="50.0dip" android:text="提交报告" />
+</LinearLayout>

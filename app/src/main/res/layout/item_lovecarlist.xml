@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffc6ecf5"
+    android:paddingTop="10.0dip">
+
+    <ImageView
+        android:id="@+id/carlogo"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:layout_marginLeft="10.0dip" />
+
+    <TextView
+        android:id="@+id/cainame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_toRightOf="@+id/carlogo"
+        android:text="奔驰" />
+
+    <TextView
+        android:id="@+id/catnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/carlogo"
+        android:layout_marginLeft="10.0dip"
+        android:layout_toRightOf="@+id/carlogo"
+        android:text="京A56895" />
+
+    <TextView
+        android:id="@+id/shanchu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20.0dip"
+        android:padding="5.0dip"
+        android:text="删除" />
+
+    <TextView
+        android:id="@+id/bianji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:layout_toLeftOf="@+id/shanchu"
+        android:padding="5.0dip"
+        android:text="编辑" />
+
+    <TextView
+        android:id="@+id/chakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:layout_toLeftOf="@+id/bianji"
+        android:padding="5.0dip"
+        android:text="下载保单" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5.0dip"
+        android:layout_below="@+id/catnum"
+        android:layout_marginTop="10.0dip"
+        android:background="@color/wight" />
+</RelativeLayout>

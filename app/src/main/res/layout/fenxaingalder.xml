@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15.0dip"
+        android:text="分享"
+        android:textColor="@color/blue"
+        android:textSize="25.0sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/weichat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fgfd"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:background="@drawable/icon_wx" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fgfd"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5.0dip"
+                android:text="微信" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pengyouquan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120.0dip">
+
+            <ImageView
+                android:id="@+id/pengyoquua"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:background="@drawable/icon_44" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pengyoquua"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5.0dip"
+                android:text="朋友圈" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/dialogstyle"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+    </LinearLayout>
+</LinearLayout>

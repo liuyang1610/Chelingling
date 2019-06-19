@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/fanhuititle" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:background="@color/wight"
+        android:padding="5.0dip">
+
+        <TextView
+            android:id="@+id/yonghumin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10.0dip"
+            android:text="用户名：" />
+
+        <EditText
+            android:id="@+id/mingzi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/yonghumin"
+            android:background="@null"
+            android:hint="请填写用户名"
+            android:textCursorDrawable="@drawable/guangbiao"
+            android:textSize="14.0sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/xingbie"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1.0dip"
+        android:background="@color/wight"
+        android:padding="5.0dip">
+
+        <TextView
+            android:id="@+id/yonghumin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10.0dip"
+            android:text="性     别：" />
+
+        <TextView
+            android:id="@+id/xingbies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/yonghumin1"
+            android:text="请选择性别" />
+
+        <ImageView
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/xiala" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dizhis"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1.0dip"
+        android:background="@color/wight"
+        android:padding="5.0dip">
+
+        <TextView
+            android:id="@+id/yonghumin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10.0dip"
+            android:text="地     址：" />
+
+        <TextView
+            android:id="@+id/dizhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/yonghumin2"
+            android:text="请选择地址" />
+
+        <ImageView
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/xiala" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/shengri"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1.0dip"
+        android:background="@color/wight"
+        android:padding="5.0dip">
+
+        <TextView
+            android:id="@+id/yonghumin3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10.0dip"
+            android:text="生     日：" />
+
+        <TextView
+            android:id="@+id/shengris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/yonghumin3"
+            android:text="请选择生日" />
+
+        <ImageView
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/xiala" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1.0dip"
+        android:background="@color/wight"
+        android:padding="5.0dip">
+
+        <TextView
+            android:id="@+id/yonghumin6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10.0dip"
+            android:text="邮     箱：" />
+
+        <EditText
+            android:id="@+id/youxaing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/yonghumin6"
+            android:background="@null"
+            android:hint="请填写邮箱"
+            android:textCursorDrawable="@drawable/guangbiao"
+            android:textSize="14.0sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/baocun"
+        android:layout_width="250.0dip"
+        android:layout_height="45.0dip"
+        android:layout_below="@+id/two"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30.0dip"
+        android:layout_marginTop="50.0dip"
+        android:background="@drawable/icon_19"
+        android:gravity="center"
+        android:text="保   存"
+        android:textColor="@color/wight"
+        android:textSize="20.0sp" />
+</LinearLayout>

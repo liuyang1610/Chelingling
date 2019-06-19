@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/wight" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/gengduo" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@+id/gengguo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更多服务" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="13.0sp" android:id="@+id/gengguos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更多" android:drawableRight="@drawable/right" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <RelativeLayout android:id="@+id/jiayouchongzhi" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/tu5" android:background="@drawable/jiayou" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="加油充值" android:layout_below="@+id/tu5" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/qichebaoxian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip">
+            <ImageView android:id="@+id/tu6" android:background="@drawable/icon_23" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="汽车保险" android:layout_below="@+id/tu6" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/shigulipei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip">
+            <ImageView android:id="@+id/tu7" android:background="@drawable/icon_24" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="事故理赔" android:layout_below="@+id/tu7" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/qichejinrong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip">
+            <ImageView android:id="@+id/tu4" android:background="@drawable/icon_25" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="汽车金融" android:layout_below="@+id/tu4" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

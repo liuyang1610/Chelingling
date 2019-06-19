@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/wight" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/leftimage" android:background="@drawable/icon_set" android:layout_width="21.0dip" android:layout_height="20.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="车零零" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@+id/redtong" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/rightimage" android:background="@drawable/icon_message" android:layout_width="21.0dip" android:layout_height="20.0dip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

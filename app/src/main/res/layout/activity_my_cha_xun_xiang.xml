@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fanhuititle" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="55.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@color/wight" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@+id/chepaihao" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="京Q7AS95" />
+            <RelativeLayout android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/black" android:id="@+id/t1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="品牌型号：" />
+                <TextView android:textColor="@color/black" android:id="@+id/pingpaixing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="三菱DN7180M52轿车" android:layout_toRightOf="@+id/t1" />
+            </RelativeLayout>
+            <RelativeLayout android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/black" android:id="@+id/t2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="车架号：" />
+                <TextView android:textColor="@color/black" android:id="@+id/chejianum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LDNM******5481" android:layout_toRightOf="@+id/t2" />
+            </RelativeLayout>
+            <RelativeLayout android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/black" android:id="@+id/t3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="发动机号：" />
+                <TextView android:textColor="@color/black" android:id="@+id/fadongjinum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NP**20" android:layout_toRightOf="@+id/t3" />
+            </RelativeLayout>
+            <RelativeLayout android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/black" android:id="@+id/t4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="注册日期：" />
+                <TextView android:textColor="@color/black" android:id="@+id/zhuceriqi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2015-02-09" android:layout_toRightOf="@+id/t4" />
+            </RelativeLayout>
+            <RelativeLayout android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/black" android:id="@+id/t5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="车主姓名：" />
+                <TextView android:textColor="@color/black" android:id="@+id/chehzuname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="胡**" android:layout_toRightOf="@+id/t5" />
+            </RelativeLayout>
+            <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/t6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="录入时间：" />
+                <TextView android:id="@+id/lurutimesds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017-12-27 10:40:43" android:layout_toRightOf="@+id/t6" />
+                <TextView android:id="@+id/yewuyuan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="王晓文" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="业务员：" android:layout_toLeftOf="@+id/yewuyuan" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView android:textSize="17.0sp" android:textColor="@color/black" android:background="@color/huibg" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="去年投保信息" />
+            <include layout="@layout/chaxunxiangqiangtwo" />
+            <include layout="@layout/chaxunxiangqiangthree" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:background="@color/wight" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="20.0sp" android:textColor="@color/wight" android:gravity="center" android:id="@+id/qubaojia" android:background="@drawable/icon_19" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:text="去报价" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

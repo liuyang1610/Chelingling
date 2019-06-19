@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/wight" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fanhuititle" />
+    <View android:id="@+id/womensh" android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_below="@+id/titlke" />
+    <android.support.v7.widget.RecyclerView android:id="@+id/duihuajyesre" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@+id/womensh" />
+    <ImageView android:id="@+id/duihuanwu" android:background="@drawable/duihuanwu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/womensh" />
+</RelativeLayout>

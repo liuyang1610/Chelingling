@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.thinkcool.circletextimageview.CircleTextImageView android:id="@+id/newsicon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/timg3" />
+        <TextView android:textSize="13.0sp" android:ellipsize="end" android:id="@+id/nesname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="加油卡优惠出炉" android:maxLines="1" android:maxEms="10" android:layout_toRightOf="@+id/newsicon" />
+        <TextView android:textSize="11.0sp" android:id="@+id/nescontent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="每年最高优惠2880元，车零零加油卡充值，超划算" android:maxLines="1" android:maxEms="20" android:layout_toRightOf="@+id/newsicon" android:layout_below="@+id/nesname" />
+        <TextView android:textSize="11.0sp" android:id="@+id/nestime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="2017/12/30" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+</LinearLayout>

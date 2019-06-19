@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textColor="#ff1145cd" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="微信支付订单" />
+    <Button android:id="@+id/bt_submit_order" android:text="提交订单" style="@style/activity_button" />
+    <Button android:id="@+id/bt_corfirm" android:text="确认支付" style="@style/activity_button" />
+    <TextView android:id="@+id/tv_prepay_id" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

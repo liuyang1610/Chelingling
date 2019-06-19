@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/im1" android:background="@drawable/icon_30" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="平安车险" android:layout_toRightOf="@+id/im1" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0sp" android:textColor="#fff50646" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥3800.00" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/im2" android:background="@drawable/icon_31" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="太平洋车险" android:layout_toRightOf="@+id/im2" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0sp" android:textColor="#fff50646" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥64000.00" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/im3" android:background="@drawable/icon_32" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="人保车险" android:layout_toRightOf="@+id/im3" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0sp" android:textColor="#fff50646" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥5666.00" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/im4" android:background="@drawable/icon_33" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="平安车险" android:layout_toRightOf="@+id/im4" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0sp" android:textColor="#fff50646" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="报价失败" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/huibg"
+    android:orientation="vertical">
+
+    <include layout="@layout/fanhuititle" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        android:background="@color/huibg" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/wight"
+        android:padding="11.0dip">
+
+        <ImageView
+            android:id="@+id/qian"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:background="@drawable/shouji" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:layout_toRightOf="@+id/qian"
+            android:text="手机号:"
+            android:textColor="@color/black"
+            android:textSize="16.0sp" />
+
+        <EditText
+            android:id="@+id/phonenums"
+            android:layout_width="150.0dip"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/phone"
+            android:background="@null"
+            android:hint="请输入手机号"
+            android:inputType="number"
+            android:textCursorDrawable="@drawable/guangbiao"
+            android:textSize="15.0sp" />
+
+        <Button
+            android:id="@+id/sendcard"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/buttonstylemoren"
+            android:text="发送验证码"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/huibg" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/wight"
+        android:padding="15.0dip">
+
+        <ImageView
+            android:id="@+id/qians"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/yanzhengma" />
+
+        <TextView
+            android:id="@+id/card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:layout_toRightOf="@+id/qians"
+            android:paddingBottom="5.0dip"
+            android:paddingTop="5.0dip"
+            android:text="验证码:"
+            android:textColor="@color/black"
+            android:textSize="16.0sp" />
+
+        <EditText
+            android:id="@+id/cardsss"
+            android:layout_width="150.0dip"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@+id/card"
+            android:background="@null"
+            android:hint="请输入验证码"
+            android:inputType="number"
+            android:textCursorDrawable="@drawable/guangbiao"
+            android:textSize="15.0sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/yanzhengnew"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginLeft="50.0dip"
+        android:layout_marginRight="50.0dip"
+        android:layout_marginTop="70.0dip"
+        android:background="@drawable/icon_19"
+        android:gravity="center"
+        android:text="验证后绑定新手机号"
+        android:textColor="@color/wight"
+        android:textSize="20.0sp" />
+</LinearLayout>

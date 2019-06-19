@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/huibg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fanhuititle" />
+    <RelativeLayout android:id="@+id/fgvf" android:background="#ffc1ecfc" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@+id/titlke">
+        <TextView android:id="@+id/sigone" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收货人:" />
+        <TextView android:id="@+id/shouhuorenname" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@+id/sigone" />
+        <TextView android:id="@+id/shouphone" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/fgf" android:background="#ffc1ecfc" android:paddingLeft="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/fgvf">
+        <TextView android:textSize="12.0sp" android:id="@+id/sigtwo" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收货地址:" />
+        <TextView android:textSize="12.0sp" android:id="@+id/shouhuorenaddress" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@+id/sigtwo" />
+        <ImageView android:background="@drawable/right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textColor="@color/black" android:id="@+id/shangpinname" android:background="@color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="纯棉毛巾" android:layout_below="@+id/fgf" />
+    <RelativeLayout android:background="@color/huibg" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/shangpinname">
+        <ImageView android:id="@+id/shangpinima" android:background="@drawable/ceshi" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" />
+        <TextView android:textSize="12.0sp" android:id="@+id/duihuas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:text="兑换价：" android:layout_toRightOf="@+id/shangpinima" />
+        <TextView android:textSize="12.0sp" android:id="@+id/duihuanjage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="2000积分" android:layout_toRightOf="@+id/duihuas" />
+        <TextView android:textSize="12.0sp" android:id="@+id/yidui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="已兑换：" android:layout_toRightOf="@+id/shangpinima" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:id="@+id/yiduinum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="3" android:layout_toRightOf="@+id/yidui" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:id="@+id/kuncun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="3.0dip" android:text="库存：" android:layout_toRightOf="@+id/yiduinum" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:id="@+id/kuncunnum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="3" android:layout_toRightOf="@+id/kuncun" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textColor="@color/white" android:id="@+id/queren" android:background="#ff6199f1" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确认兑换" android:layout_alignParentRight="true" />
+        <TextView android:textColor="#ff6199f1" android:id="@+id/jifen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="700" android:layout_toLeftOf="@+id/queren" android:layout_centerVertical="true" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="消费积分：" android:layout_toLeftOf="@+id/jifen" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>
